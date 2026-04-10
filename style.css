@@ -442,20 +442,19 @@ p {
   .hero-side {
     max-width: 100%;
   }
-a.custom-link:link {
-  color: blue;
-  text-decoration: underline;
-}
-
+a.custom-link,
+a.custom-link:link,
 a.custom-link:visited {
-  color: purple;
+  color: #1f6b70 !important;
+  text-decoration: underline !important;
 }
 
-a.custom-link:hover {
-  color: green;
+a.custom-link:hover,
+a.custom-link:focus {
+  color: #184f53 !important;
 }
 
 a.custom-link:active {
-  color: red;
+  color: #b04a2b !important;
 }
 }
