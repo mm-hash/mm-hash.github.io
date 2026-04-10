@@ -178,14 +178,9 @@ p {
   max-width: 56ch;
 }
 
-.hero {
-  padding-top: 4.5rem;
-  padding-bottom: 4rem;
-}
-
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(320px, 420px);
+  grid-template-columns: minmax(0, 1.3fr) minmax(280px, 420px);
   gap: 3rem;
   align-items: start;
 }
@@ -193,15 +188,6 @@ p {
 .hero-copy {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-}
-
-.hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.9rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0;
 }
 
 .hero-side {
@@ -211,25 +197,24 @@ p {
   align-items: stretch;
 }
 
-.hero-image-wrap {
-  width: 100%;
-  margin: 0;
-  line-height: 0;
-}
-
-.profile-photo {
+.free-photo {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  margin: 0;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-bottom: 0;
-  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
-  box-shadow: var(--shadow);
+  height: auto;
+  max-width: 380px;
+  margin-left: auto;
+  margin-right: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
 }
 
+.quick-profile {
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 1.5rem;
+}
 .hero-card,
 .project-card,
 .info-card,
