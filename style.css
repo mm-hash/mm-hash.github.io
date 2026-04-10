@@ -442,19 +442,20 @@ p {
   .hero-side {
     max-width: 100%;
   }
-  .custom-link:link {
+a.custom-link:link {
   color: blue;
+  text-decoration: underline;
 }
 
-.custom-link:visited {
+a.custom-link:visited {
   color: purple;
 }
 
-.custom-link:hover {
+a.custom-link:hover {
   color: green;
 }
 
-.custom-link:active {
+a.custom-link:active {
   color: red;
 }
 }
